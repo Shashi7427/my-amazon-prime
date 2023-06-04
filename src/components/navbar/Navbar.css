@@ -1,0 +1,154 @@
+.navbar{
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index:9999;
+    background-color: #1a242f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    font-weight: 300;
+    user-select: none;
+ }
+
+ .prime__logo{
+     height: 35px;
+     width: auto;
+     margin-right: 20px;
+ }
+
+ .select__user{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity:0.8;
+    padding: 5px 15px;
+ }
+ .select__user:hover{
+    background-color: rgba(0, 0, 0, 0.411);
+   opacity:1;
+ }
+
+ .current__user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ }
+
+
+ .current__user__wrapper{
+        position: relative;
+ }
+
+
+ .user__profile__icon{
+    height: 30px !important;
+    width: 30px !important;
+    color:rgb(58, 106, 179);
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;    
+ }
+
+ .user__profile__icon__dp{
+    height: 40px !important;
+    width: 40px !important;
+    color:rgb(58, 106, 179);
+    background-color: #fff;
+    border:3px solid white;
+    border-radius: 50%;
+    margin-right: 10px;    
+ }
+
+ .add__profile__icon{
+    height: 34px !important;
+    width: 34px !important;
+    color:#fff;
+    border-radius: 50%;
+    margin-right: 7px;    
+ }
+
+.nav__left{
+   display: flex;
+   align-items: center;
+}
+
+.nav__heading{
+   font-weight: 500;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   font-size: 18px;
+   cursor: pointer;
+   margin-right: 15px;
+   opacity:0.8;
+   border-bottom: 2px solid transparent;
+
+}
+
+.nav__active{
+   opacity:1;
+   border-bottom: 2px solid white;
+}
+
+.bg__green{
+   color:rgb(37, 179, 120);
+}
+.bg__red{
+   background-color: transparent;
+   color:rgb(207, 40, 40);
+}
+.nav__heading:hover{
+   opacity:1;
+}
+
+ .current__user__dropdown{
+     position: absolute;
+     top:120%;
+     right:0;
+     z-index:2;
+     opacity:1;
+     background-color: #252e39;
+     border-radius: 5px;
+     
+
+ }
+
+ .current__user__dropdown__options{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .movie__regions{
+    display: flex;
+    align-items: center;
+ }
+
+ .movie__region{
+    display: flex;
+    align-items: center;
+    padding:5px;
+    border-radius: 5px;
+    margin-right: 10px;
+ }
+
+ .movie__region:hover{
+    background-color: rgba(0, 0, 0, 0.301);
+ }
+
+ .movie__region__selected{
+   background-color: rgb(32, 136, 63);
+ }
+
+.prime__logo{
+   cursor: pointer;
+}
+
+.shadow__bg{
+   box-shadow: 1px -2px 23px -2px rgba(0,0,0,0.69);
+   -webkit-box-shadow: 1px -2px 23px -2px rgba(0,0,0,0.69);
+   -moz-box-shadow: 1px -2px 23px -2px rgba(0,0,0,0.69);
+}
